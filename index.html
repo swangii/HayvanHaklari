@@ -4,113 +4,110 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Kaynaklar ve Videolar</title>
-  <style>
-body {
-    font-family: 'Arial', sans-serif;
-    background: linear-gradient(135deg, #f1f1f1, #e2e2e2);
-    margin: 0;
-    padding: 0;
-}
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            background: linear-gradient(135deg, #f1f1f1, #e2e2e2);
+            margin: 0;
+            padding: 0;
+        }
 
-/* Mobil uyumlu stil */
-@media (max-width: 600px) {
-    .link-container {
-        font-size: 14px;
-        text-align: center;
-    }
+        /* Mobil uyumlu stil */
+        @media (max-width: 600px) {
+            .link-container {
+                font-size: 14px;
+                text-align: center;
+            }
 
-    #content {
-        margin: 20px auto;
-        padding: 15px;
-    }
+            #content {
+                margin: 20px auto;
+                padding: 15px;
+            }
 
-    h1 {
-        font-size: 28px;
-    }
+            h1 {
+                font-size: 28px;
+            }
 
-    button {
-        padding: 10px 20px;
-        font-size: 16px;
-    }
+            button {
+                padding: 10px 20px;
+                font-size: 16px;
+            }
 
-    a {
-        font-size: 16px;
-    }
+            a {
+                font-size: 16px;
+            }
 
-    #backToHome {
-        padding: 8px 20px;
-    }
+            #backToHome {
+                padding: 8px 20px;
+            }
 
-    ul {
-        padding-left: 0;
-    }
+            ul {
+                padding-left: 0;
+            }
 
-    li {
-        margin-bottom: 10px;
-        font-size: 16px;
-        text-align: left;
-        display: flex;
-        align-items: center;
-    }
+            li {
+                margin-bottom: 10px;
+                font-size: 16px;
+                text-align: left;
+                display: flex;
+                align-items: center;
+            }
 
-    a {
-        color: #0066cc;
-        text-decoration: none;
-        font-size: 16px;
-    }
+            a {
+                color: #0066cc;
+                text-decoration: none;
+                font-size: 16px;
+            }
 
-    a:hover {
-        text-decoration: underline;
-        color: #004b99;
-    }
+            a:hover {
+                text-decoration: underline;
+                color: #004b99;
+            }
 
-    #btnKaynaklar, #btnVideolar {
-        background-color: #007bff;
-        font-size: 18px;
-        padding: 12px 30px;
-    }
+            #btnKaynaklar, #btnVideolar {
+                background-color: #007bff;
+                font-size: 18px;
+                padding: 12px 30px;
+            }
 
-    #btnKaynaklar:hover, #btnVideolar:hover {
-        background-color: #0056b3;
-    }
+            #btnKaynaklar:hover, #btnVideolar:hover {
+                background-color: #0056b3;
+            }
 
-    #backToHome {
-        background-color: #004b99;
-        padding: 10px 25px;
-        margin-top: 20px;
-        font-size: 18px;
-        border-radius: 5px;
-    }
+            #backToHome {
+                background-color: #004b99;
+                padding: 10px 25px;
+                margin-top: 20px;
+                font-size: 18px;
+                border-radius: 5px;
+            }
 
-    #backToHome:hover {
-        background-color: #003366;
-    }
+            #backToHome:hover {
+                background-color: #003366;
+            }
 
-    /* Kaynaklar linkleri için optimize edilmiş görünüm */
-    ul {
-        display: flex;
-        flex-direction: column;
-        gap: 10px;
-    }
+            /* Kaynaklar linkleri için optimize edilmiş görünüm */
+            ul {
+                display: flex;
+                flex-direction: column;
+                gap: 10px;
+            }
 
-    li {
-        width: 100%;
-        padding: 5px;
-        text-align: left;
-    }
-}
-
-</style>
-
+            li {
+                width: 100%;
+                padding: 5px;
+                text-align: left;
+            }
+        }
+    </style>
 </head>
 <body>
 
     <div id="content">
        <h1>Hoş Geldiniz</h1>
-<p>Kaynaklara ve Videolara Buradan Ulaşabilirsiniz!</p>
-<button id="btnKaynaklar">Kaynaklar</button>
-<button id="btnVideolar">Videolar</button>
-
+       <p>Kaynaklara ve Videolara Buradan Ulaşabilirsiniz!</p>
+       <button id="btnKaynaklar">Kaynaklar</button>
+       <button id="btnVideolar">Videolar</button>
     </div>
 
     <script>
@@ -119,49 +116,48 @@ body {
             document.getElementById("btnKaynaklar").addEventListener("click", function() {
                 document.getElementById("content").innerHTML = `
                     <h2>Kaynaklar</h2>
-                <ul>
-    <li><a href="https://dergipark.org.tr/tr/download/article-file/405195" target="_blank">1. kaynak linki</a></li>
-    <li><a href="https://iahaio.org/wp/wp-content/uploads/2020/02/iahaio-wp-turkish-2018-final.pdf" target="_blank">2. kaynak linki</a></li>
-    <li><a href="https://tdkturkdunyasi.gov.tr/tam-metin-pdf/855/tur" target="_blank">3. kaynak linki</a></li>
-    <li><a href="https://www.researchgate.net/publication/340951048_Hayvan_ve_Insan_Arasindaki_Bag_Temelli_Sosyal_Calisma" target="_blank">4. kaynak linki</a></li>
-    <li><a href="https://yenie.net/hayvanlarin-konu-edildigi-sanat-eserlerim-uzerine/" target="_blank">5. kaynak linki</a></li>
-    <li><a href="https://www.okuryazar.com.tr/dergi/insanlar-ve-hayvanlar-arasindaki-dostluk" target="_blank">6. kaynak linki</a></li>
-    <li><a href="https://www.researchgate.net/publication/366624450_Insan-_Hayvan_Iliskisi_Cercevesinde_Hayvan_Refahi_Etik_Acidan_Degerlendirme" target="_blank">7. kaynak linki</a></li>
-    <li><a href="https://www.haytap.org/tr/sirk-ve-goesteri-hayvanlar-gercei" target="_blank">8. kaynak linki</a></li>
-    <li><a href="https://birikimdergisi.com/guncel/996/sinirsiz-zulum-eglence-sektorunde-hayvanlar-hayvan-yarislari-sirkler" target="_blank">9. kaynak linki</a></li>
-    <li><a href="https://dergipark.org.tr/tr/download/article-file/114949" target="_blank">10. kaynak linki</a></li>
-    <li><a href="https://akademik.adu.edu.tr/aum/pdrm/webfolders/topics/20240612140411-VBDAUY2SUHAYVANSEVGS-000023622932463931970760.pdf?utm_source=chatgpt.com" target="_blank">11. kaynak linki</a></li>
-    <li><a href="https://barandogan.av.tr/blog/ceza-hukuku/hayvan-oldurme-iskence-kotu-muamele-sucu-cezasi.html" target="_blank">12. kaynak linki</a></li>
-    <li><a href="https://kebikecdergi.files.wordpress.com/2012/07/19_akin.pdf" target="_blank">13. kaynak linki</a></li>
-    <li><a href="https://bilimteknik.tubitak.gov.tr/system/files/makale/601_bilim_ve_teknik_-_2017_aralik_68.pdf" target="_blank">14. kaynak linki</a></li>
-    <li><a href="https://www.nesnedergisi.com/makale/pdf/1520517342.pdf" target="_blank">15. kaynak linki</a></li>
-    <li><a href="https://www.haytap.org/tr/sirk-ve-goesteri-hayvanlar-gercei?utm_source=chatgpt.com" target="_blank">16. kaynak linki</a></li>
-    <li><a href="https://www.ortakses.com/sirk-maymunu-564yy.htm" target="_blank">17. kaynak linki</a></li>
-    <li><a href="https://www.facebook.com/dwturkce/videos/sirkte-hayvanlar%C4%B1n-yerini-hologramlar%C4%B1-ald%C4%B1/2429839750669644/" target="_blank">18. kaynak linki</a></li>
-    <li><a href="https://www.youtube.com/watch?v=rJBpl0tTGw4" target="_blank">19. kaynak linki</a></li>
-    <li><a href="https://www.medyacuvali.com/yazilar/nurcan-unal/hayvan-haklari-kavraminin-kapsamina-bir-bakis-denemesi?utm_source=chatgpt.com" target="_blank">20. kaynak linki</a></li>
-    <li><a href="https://www.tuba.gov.tr/files/yayinlar/raporlar/TUBA-978-625-6110-02-1.pdf" target="_blank">21. kaynak linki</a></li>
-    <li><a href="https://www.sosyalarastirmalar.com/articles/deney-hayvanlarinin-kozmetk-sektrnde-kullanimi-konulu-llstratf-sosyal-sorumluluk-af-tasarimiillusturated-social-responsi.pdf?utm_source=chatgpt.com" target="_blank">22. kaynak linki</a></li>
-    <li><a href="https://www.products.pcc.eu/tr/blog/kozmetik-endustrisinde-hayvan-testleri-ne-bilmelisin/" target="_blank">23. kaynak linki</a></li>
-    <li><a href="https://yesilgazete.org/deneylerde-hayvan-kullanmak-sart-degil-2-kozmetik-sektoru-ve-tc-yasalari-metin-kilic/" target="_blank">24. kaynak linki</a></li>
-    <li><a href="https://yesilgazete.org/kozmetik-urunlerde-hayvan-deneyleri-hakkinda-temel-bilgiler-yagmur-ozgur-guven/" target="_blank">25. kaynak linki</a></li>
-    <li><a href="https://haberler.tvd.org.tr/2021/04/16/gizli-cekimlerle-hayvanlarda-toksisite-deneylerinin-ardindaki-vahset/" target="_blank">26. kaynak linki</a></li>
-    <li><a href="https://www.memorial.com.tr/saglik-rehberi/hayvan-sevgisi-cocugun-kisisel-gelisimine-katki-sagliyor" target="_blank">27. kaynak linki</a></li>
-    <li><a href="https://www.dbe.com.tr/tr/cocuk-ve-genc/11/cocuk-ruh-sagliginda-hayvan-sevgisinin-onemi/?utm_source=chatgpt.com" target="_blank">28. kaynak linki</a></li>
-    <li><a href="https://www.fundomundo.com/kesfet/hayvan-sevgisinin-onemi" target="_blank">29. kaynak linki</a></li>
-    <li><a href="https://www.bonus.com.tr/bonus-icerikler/hayvanlari-korumak-icin-neler-yapmaliyiz" target="_blank">30. kaynak linki</a></li>
-    <li><a href="http://dogadergi.ksu.edu.tr/en/pub/issue/43099/472849" target="_blank">31. kaynak linki</a></li>
-    <li><a href="https://dergipark.org.tr/tr/pub/adusobed/issue/33430/353373" target="_blank">32. kaynak linki</a></li>
-    <li><a href="https://vetdergikafkas.org/pdf.php?&id=219" target="_blank">33. kaynak linki</a></li>
-    <li><a href="http://sita.cumhuriyet.edu.tr/en/pub/issue/89369/1576582" target="_blank">34. kaynak linki</a></li>
-    <li><a href="https://www.bbc.com/turkce/articles/cnkkyege15zo" target="_blank">35. kaynak linki</a></li>
-    <li><a href="https://pin.it/4VFJWJbwf" target="_blank">36. kaynak linki</a></li>
-    <li><a href="https://images.app.goo.gl/99vYfuR2UpZqz1mv6" target="_blank">37. kaynak linki</a></li>
-    <li><a href="https://images.app.goo.gl/FK67xrT6gBqyyemP6" target="_blank">38. kaynak linki</a></li>
-    <li><a href="https://images.app.goo.gl/TRAmPj4MMH6QdKSK8" target="_blank">39. kaynak linki</a></li>
-    <li><a href="https://images.app.goo.gl/9vaWKbXWPWiTwNnm7" target="_blank">40. kaynak linki</a></li>
-</ul>
-
+                    <ul>
+                        <li><a href="https://dergipark.org.tr/tr/download/article-file/405195" target="_blank">1. kaynak linki</a></li>
+                        <li><a href="https://iahaio.org/wp/wp-content/uploads/2020/02/iahaio-wp-turkish-2018-final.pdf" target="_blank">2. kaynak linki</a></li>
+                        <li><a href="https://tdkturkdunyasi.gov.tr/tam-metin-pdf/855/tur" target="_blank">3. kaynak linki</a></li>
+                        <li><a href="https://www.researchgate.net/publication/340951048_Hayvan_ve_Insan_Arasindaki_Bag_Temelli_Sosyal_Calisma" target="_blank">4. kaynak linki</a></li>
+                        <li><a href="https://yenie.net/hayvanlarin-konu-edildigi-sanat-eserlerim-uzerine/" target="_blank">5. kaynak linki</a></li>
+                        <li><a href="https://www.okuryazar.com.tr/dergi/insanlar-ve-hayvanlar-arasindaki-dostluk" target="_blank">6. kaynak linki</a></li>
+                        <li><a href="https://www.researchgate.net/publication/366624450_Insan-_Hayvan_Iliskisi_Cercevesinde_Hayvan_Refahi_Etik_Acidan_Degerlendirme" target="_blank">7. kaynak linki</a></li>
+                        <li><a href="https://www.haytap.org/tr/sirk-ve-goesteri-hayvanlar-gercei" target="_blank">8. kaynak linki</a></li>
+                        <li><a href="https://birikimdergisi.com/guncel/996/sinirsiz-zulum-eglence-sektorunde-hayvanlar-hayvan-yarislari-sirkler" target="_blank">9. kaynak linki</a></li>
+                        <li><a href="https://dergipark.org.tr/tr/download/article-file/114949" target="_blank">10. kaynak linki</a></li>
+                        <li><a href="https://akademik.adu.edu.tr/aum/pdrm/webfolders/topics/20240612140411-VBDAUY2SUHAYVANSEVGS-000023622932463931970760.pdf?utm_source=chatgpt.com" target="_blank">11. kaynak linki</a></li>
+                        <li><a href="https://barandogan.av.tr/blog/ceza-hukuku/hayvan-oldurme-iskence-kotu-muamele-sucu-cezasi.html" target="_blank">12. kaynak linki</a></li>
+                        <li><a href="https://kebikecdergi.files.wordpress.com/2012/07/19_akin.pdf" target="_blank">13. kaynak linki</a></li>
+                        <li><a href="https://bilimteknik.tubitak.gov.tr/system/files/makale/601_bilim_ve_teknik_-_2017_aralik_68.pdf" target="_blank">14. kaynak linki</a></li>
+                        <li><a href="https://www.nesnedergisi.com/makale/pdf/1520517342.pdf" target="_blank">15. kaynak linki</a></li>
+                        <li><a href="https://www.haytap.org/tr/sirk-ve-goesteri-hayvanlar-gercei?utm_source=chatgpt.com" target="_blank">16. kaynak linki</a></li>
+                        <li><a href="https://www.ortakses.com/sirk-maymunu-564yy.htm" target="_blank">17. kaynak linki</a></li>
+                        <li><a href="https://www.facebook.com/dwturkce/videos/sirkte-hayvanlar%C4%B1n-yerini-hologramlar%C4%B1-ald%C4%B1/2429839750669644/" target="_blank">18. kaynak linki</a></li>
+                        <li><a href="https://www.youtube.com/watch?v=rJBpl0tTGw4" target="_blank">19. kaynak linki</a></li>
+                        <li><a href="https://www.medyacuvali.com/yazilar/nurcan-unal/hayvan-haklari-kavraminin-kapsamina-bir-bakis-denemesi?utm_source=chatgpt.com" target="_blank">20. kaynak linki</a></li>
+                        <li><a href="https://www.tuba.gov.tr/files/yayinlar/raporlar/TUBA-978-625-6110-02-1.pdf" target="_blank">21. kaynak linki</a></li>
+                        <li><a href="https://www.sosyalarastirmalar.com/articles/deney-hayvanlarinin-kozmetk-sektrnde-kullanimi-konulu-llstratf-sosyal-sorumluluk-af-tasarimiillusturated-social-responsi.pdf?utm_source=chatgpt.com" target="_blank">22. kaynak linki</a></li>
+                        <li><a href="https://www.products.pcc.eu/tr/blog/kozmetik-endustrisinde-hayvan-testleri-ne-bilmelisin/" target="_blank">23. kaynak linki</a></li>
+                        <li><a href="https://yesilgazete.org/deneylerde-hayvan-kullanmak-sart-degil-2-kozmetik-sektoru-ve-tc-yasalari-metin-kilic/" target="_blank">24. kaynak linki</a></li>
+                        <li><a href="https://yesilgazete.org/kozmetik-urunlerde-hayvan-deneyleri-hakkinda-temel-bilgiler-yagmur-ozgur-guven/" target="_blank">25. kaynak linki</a></li>
+                        <li><a href="https://haberler.tvd.org.tr/2021/04/16/gizli-cekimlerle-hayvanlarda-toksisite-deneylerinin-ardindaki-vahset/" target="_blank">26. kaynak linki</a></li>
+                        <li><a href="https://www.memorial.com.tr/saglik-rehberi/hayvan-sevgisi-cocugun-kisisel-gelisimine-katki-sagliyor" target="_blank">27. kaynak linki</a></li>
+                        <li><a href="https://www.dbe.com.tr/tr/cocuk-ve-genc/11/cocuk-ruh-sagliginda-hayvan-sevgisinin-onemi/?utm_source=chatgpt.com" target="_blank">28. kaynak linki</a></li>
+                        <li><a href="https://www.fundomundo.com/kesfet/hayvan-sevgisinin-onemi" target="_blank">29. kaynak linki</a></li>
+                        <li><a href="https://www.bonus.com.tr/bonus-icerikler/hayvanlari-korumak-icin-neler-yapmaliyiz" target="_blank">30. kaynak linki</a></li>
+                        <li><a href="http://dogadergi.ksu.edu.tr/en/pub/issue/43099/472849" target="_blank">31. kaynak linki</a></li>
+                        <li><a href="https://dergipark.org.tr/tr/pub/adusobed/issue/33430/353373" target="_blank">32. kaynak linki</a></li>
+                        <li><a href="https://vetdergikafkas.org/pdf.php?&id=219" target="_blank">33. kaynak linki</a></li>
+                        <li><a href="http://sita.cumhuriyet.edu.tr/en/pub/issue/89369/1576582" target="_blank">34. kaynak linki</a></li>
+                        <li><a href="https://www.bbc.com/turkce/articles/cnkkyege15zo" target="_blank">35. kaynak linki</a></li>
+                        <li><a href="https://pin.it/4VFJWJbwf" target="_blank">36. kaynak linki</a></li>
+                        <li><a href="https://images.app.goo.gl/99vYfuR2UpZqz1mv6" target="_blank">37. kaynak linki</a></li>
+                        <li><a href="https://images.app.goo.gl/FK67xrT6gBqyyemP6" target="_blank">38. kaynak linki</a></li>
+                        <li><a href="https://images.app.goo.gl/TRAmPj4MMH6QdKSK8" target="_blank">39. kaynak linki</a></li>
+                        <li><a href="https://images.app.goo.gl/9vaWKbXWPWiTwNnm7" target="_blank">40. kaynak linki</a></li>
+                    </ul>
                     <button id="backToHome">Geri Dön</button>
                 `;
                 document.getElementById("backToHome").addEventListener("click", function() {
