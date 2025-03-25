@@ -4,96 +4,120 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Kaynaklar ve Videolar</title>
-    <style>
-      body {
-    font-family: 'Arial', sans-serif;
-    background: linear-gradient(135deg, #f1f1f1, #e2e2e2); /* Gri tonlarda gradient arka plan */
-    margin: 0;
-    padding: 0;
-}
-@media (max-width: 600px) {
-    .link-container {
-        font-size: 14px;
+  <style>
+    body {
+        font-family: 'Arial', sans-serif;
+        background: linear-gradient(135deg, #f1f1f1, #e2e2e2);
+        margin: 0;
+        padding: 0;
+    }
+
+    /* Mobil uyumlu stil */
+    @media (max-width: 600px) {
+        .link-container {
+            font-size: 14px;
+            text-align: center;
+        }
+
+        #content {
+            margin: 20px auto;
+            padding: 15px;
+        }
+
+        h1 {
+            font-size: 28px;
+        }
+
+        button {
+            padding: 10px 20px;
+            font-size: 16px;
+        }
+
+        a {
+            font-size: 16px;
+        }
+
+        #backToHome {
+            padding: 8px 20px;
+        }
+    }
+
+    #content {
+        max-width: 900px;
+        margin: 50px auto;
+        padding: 30px;
+        background-color: #ffffff;
+        border-radius: 12px;
+        box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
         text-align: center;
     }
-}
-#content {
-    max-width: 900px;
-    margin: 50px auto;
-    padding: 30px;
-    background-color: #ffffff;
-    border-radius: 12px;
-    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1); /* Şık bir gölge efekti */
-    text-align: center;
-}
 
-h1 {
-    color: #333;
-    font-size: 36px;
-    font-weight: bold;
-}
+    h1 {
+        color: #333;
+        font-size: 36px;
+        font-weight: bold;
+    }
 
-button {
-    background-color: #4CAF50;
-    color: white;
-    padding: 12px 30px;
-    border: none;
-    border-radius: 5px;
-    cursor: pointer;
-    font-size: 18px;
-    margin: 10px;
-    transition: all 0.3s ease;
-}
+    button {
+        background-color: #4CAF50;
+        color: white;
+        padding: 12px 30px;
+        border: none;
+        border-radius: 5px;
+        cursor: pointer;
+        font-size: 18px;
+        margin: 10px;
+        transition: all 0.3s ease;
+    }
 
-button:hover {
-    background-color: #45a049;
-    transform: scale(1.05); /* Hover animasyonu */
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Hover'da gölge */
-}
+    button:hover {
+        background-color: #45a049;
+        transform: scale(1.05);
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    }
 
-ul {
-    list-style-type: none;
-    padding: 0;
-}
+    ul {
+        list-style-type: none;
+        padding: 0;
+    }
 
-li {
-    margin: 15px 0;
-}
+    li {
+        margin: 15px 0;
+    }
 
-a {
-    color: #0066cc;
-    text-decoration: none;
-    font-size: 18px;
-}
+    a {
+        color: #0066cc;
+        text-decoration: none;
+        font-size: 18px;
+    }
 
-a:hover {
-    text-decoration: underline;
-    color: #004b99;
-}
+    a:hover {
+        text-decoration: underline;
+        color: #004b99;
+    }
 
-#btnKaynaklar, #btnVideolar {
-    background-color: #007bff;
-    font-size: 18px;
-}
+    #btnKaynaklar, #btnVideolar {
+        background-color: #007bff;
+        font-size: 18px;
+    }
 
-#btnKaynaklar:hover, #btnVideolar:hover {
-    background-color: #0056b3;
-}
+    #btnKaynaklar:hover, #btnVideolar:hover {
+        background-color: #0056b3;
+    }
 
-#backToHome {
-    background-color: #004b99;
-    padding: 10px 25px;
-    margin-top: 20px;
-    font-size: 18px;
-    border-radius: 5px;
-}
+    #backToHome {
+        background-color: #004b99;
+        padding: 10px 25px;
+        margin-top: 20px;
+        font-size: 18px;
+        border-radius: 5px;
+    }
 
-#backToHome:hover {
-    background-color: #003366;
-}
+    #backToHome:hover {
+        background-color: #003366;
+    }
+</style>
 
-
-    </style>
 </head>
 <body>
 
